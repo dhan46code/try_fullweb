@@ -14,11 +14,15 @@ img {
   width: 100%;
 }
 
+.section_ {
+  padding: 3rem 0;
+}
+
 .title {
   text-transform: uppercase;
   text-align: center;
-  padding: 3rem 0;
   color: #fff;
+  margin-bottom: 2rem;
 }
 
 .section-center {

@@ -13,6 +13,14 @@ export const data = [
   },
   {
     id: 4,
-    img: 'https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg',
+    img: 'https://images.pexels.com/photos/462024/pexels-photo-462024.jpeg',
+  },
+  {
+    id: 5,
+    img: 'https://images.pexels.com/photos/462162/pexels-photo-462162.jpeg',
+  },
+  {
+    id: 6,
+    img: 'https://images.pexels.com/photos/247431/pexels-photo-247431.jpeg',
   },
 ];

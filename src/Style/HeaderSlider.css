@@ -85,3 +85,7 @@
 .slider-image.lastSlide {
   transform: translateX(-100%);
 }
+
+.slide-text {
+  background: rgba(31, 30, 30, 0.561);
+}

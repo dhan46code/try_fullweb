@@ -5,15 +5,19 @@ import '../Style/Gallery.css';
 function gallery() {
   return (
     <>
-      <section className='gallery-page'>
+      <section className='gallery-page section_'>
         <div className='title'>gallery nature</div>
         <div className='gallery-center section-center'>
           {data.map((gallery) => {
             const { id, img } = gallery;
             return (
-              <article className='gallery'>
-                <img src={img} alt='' className='gallery-photo' />
-              </article>
+              <a href={img} target='_blank'>
+                <article className='gallery'>
+                  <div className='gallery-photo-container'>
+                    <img src={img} alt='' className='gallery-photo' />
+                  </div>
+                </article>
+              </a>
             );
           })}
         </div>
