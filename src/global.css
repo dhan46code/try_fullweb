@@ -8,10 +8,17 @@
 
 a {
   text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 1rem;
 }
 
 img {
   width: 100%;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .section_ {

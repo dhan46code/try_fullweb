@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { data } from './data';
+import Navbar from './Navbar';
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
 import '../Style/HeaderSlider.css';
 
@@ -28,6 +29,7 @@ export default function Header_SliderImage() {
 
   return (
     <>
+      <Navbar />
       <section className='slider-center'>
         {image.map((images, indexImage) => {
           const { img } = images;
@@ -59,17 +61,14 @@ export default function Header_SliderImage() {
             <FaArrowRight />
           </button>
         </div>
-        {/* slide-text */}
-        <div className='slide-text'>
-          <div className='main-text'>
-            <h1>NATURE</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Laboriosam deleniti sunt facere, nam dolorum nulla assumenda
-              blanditiis dignissimos laborum. Pariatur dolores eveniet similique
-              quas quae.
-            </p>
-          </div>
+
+        <div className='main-text'>
+          <h1>NATURE</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam
+            deleniti sunt facere, nam dolorum nulla assumenda blanditiis
+            dignissimos laborum. Pariatur dolores eveniet similique quas quae.
+          </p>
         </div>
       </section>
     </>
