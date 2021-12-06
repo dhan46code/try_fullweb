@@ -4,6 +4,7 @@
   left: 0;
   z-index: 1;
   width: 100%;
+  background: rgba(51, 51, 51, 0.753);
 }
 
 .nav-center {
@@ -23,7 +24,7 @@
 
 .nav-toggle {
   font-size: 2rem;
-  background: rgba(34, 34, 34, 0.267);
+  background: transparent;
   border: transparent;
   color: #fff;
   width: 3rem;
