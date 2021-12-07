@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { data } from './data';
-import Navbar from './Navbar';
 import { FaArrowRight, FaArrowLeft } from 'react-icons/fa';
 import '../Style/HeaderSlider.css';
 
@@ -29,8 +28,7 @@ export default function Header_SliderImage() {
 
   return (
     <>
-      <Navbar />
-      <section className='slider-center'>
+      <section className='slider-center' id='home'>
         {image.map((images, indexImage) => {
           const { img } = images;
 

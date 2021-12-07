@@ -5,7 +5,7 @@ import '../Style/Gallery.css';
 function gallery() {
   return (
     <>
-      <section className='gallery-page section_'>
+      <section className='gallery-page section_' id='gallery'>
         <div className='title'>gallery nature</div>
         <div className='gallery-center section-center'>
           {data.map((gallery) => {

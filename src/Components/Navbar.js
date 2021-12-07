@@ -8,6 +8,19 @@ function Navbar() {
   const linkContainer = useRef(null);
   const linkRef = useRef(null);
 
+  // for handleClick Links
+  const handleClick = (e) => {
+    e.preventDefault();
+    const target = e.target.getAttribute('href');
+    const location = document.querySelector(target).offsetTop;
+    console.log(location);
+
+    window.scrollTo({
+      left: 0,
+      top: location - 68,
+    });
+  };
+
   useEffect(() => {
     const linkHeight = linkRef.current.getBoundingClientRect().height;
     // console.log(linkHeight); 132
@@ -38,7 +51,9 @@ function Navbar() {
                 {link.map((link_) => {
                   return (
                     <li key={link_.id}>
-                      <a href={link_.url}>{link_.text}</a>
+                      <a href={link_.url} onClick={handleClick}>
+                        {link_.text}
+                      </a>
                     </li>
                   );
                 })}

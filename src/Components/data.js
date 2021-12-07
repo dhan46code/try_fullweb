@@ -27,27 +27,27 @@ export const data = [
 
 export const link = [
   {
-    url: '/',
+    url: '#home',
     text: 'home',
     id: 1,
   },
   {
-    url: '/gallery',
+    url: '#gallery',
     text: 'gallery',
     id: 2,
   },
   {
-    url: '/our_partner',
+    url: '#our_partner',
     text: 'our partner',
     id: 3,
   },
   {
-    url: '/blog',
+    url: '#blog',
     text: 'blog',
     id: 5,
   },
   {
-    url: '/career',
+    url: '#career',
     text: 'career',
     id: 6,
   },

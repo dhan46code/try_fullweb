@@ -1,0 +1,51 @@
+.underline {
+  width: 20rem;
+  height: 3px;
+  margin: 0.5rem auto;
+  background: #ddd;
+}
+.partner_page {
+  background: #222;
+  min-height: 400px;
+}
+
+.logo-icons {
+  margin: 4rem 0;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 4rem;
+}
+
+@media screen and (min-width: 992px) {
+  .logo-icons {
+    font-size: 5rem;
+    gap: 4rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .logo-icons:hover {
+    transform: scale(1.15);
+  }
+}
+
+/* color icons */
+.react-icons {
+  color: #00d2f7;
+}
+.pexels-icons {
+  color: #079b7d;
+}
+
+.netlify-icons {
+  color: #33acb5;
+}
+.html5-icons {
+  color: #f75421;
+}
+
+.css3-icons {
+  color: #2790ca;
+}
