@@ -24,3 +24,31 @@ export const data = [
     img: 'https://images.pexels.com/photos/247431/pexels-photo-247431.jpeg',
   },
 ];
+
+export const link = [
+  {
+    url: '/',
+    text: 'home',
+    id: 1,
+  },
+  {
+    url: '/gallery',
+    text: 'gallery',
+    id: 2,
+  },
+  {
+    url: '/our_partner',
+    text: 'our partner',
+    id: 3,
+  },
+  {
+    url: '/blog',
+    text: 'blog',
+    id: 5,
+  },
+  {
+    url: '/career',
+    text: 'career',
+    id: 6,
+  },
+];

@@ -23,7 +23,7 @@ export default function Header_SliderImage() {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setIndex(index + 1);
-    }, 3000);
+    }, 5000);
     return () => clearTimeout(timeout);
   }, [index]);
 
