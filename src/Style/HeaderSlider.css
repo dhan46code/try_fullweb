@@ -4,6 +4,8 @@
   width: 100%;
   margin: 0 auto;
   display: flex;
+  /* add hidden for slider-image */
+  overflow: hidden;
 }
 
 /* article */
