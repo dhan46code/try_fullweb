@@ -12,23 +12,11 @@
 .logo-icons {
   margin: 4rem 0;
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(auto-fit, minmax(5rem, auto));
   justify-content: center;
   align-items: center;
   gap: 2rem;
   font-size: 4rem;
-}
-
-@media screen and (min-width: 992px) {
-  .logo-icons {
-    font-size: 5rem;
-    gap: 4rem;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  .logo-icons:hover {
-    transform: scale(1.15);
-  }
 }
 
 /* color icons */
@@ -48,4 +36,20 @@
 
 .css3-icons {
   color: #2790ca;
+}
+
+.linuxfoundation-icons {
+  color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+  .logo-icons {
+    font-size: 5rem;
+    gap: 4rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .logo-icons:hover {
+    transform: scale(1.15);
+  }
 }
