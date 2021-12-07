@@ -7,12 +7,6 @@
   z-index: 3;
 }
 
-.nav-center {
-  width: 90vw;
-  margin: 0 auto;
-  max-width: 1170px;
-}
-
 .nav-header {
   padding: 1rem 0;
   display: flex;
@@ -73,6 +67,9 @@
   }
 
   .nav-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
     display: flex;
     justify-content: space-between;
     align-items: center;
